@@ -16,4 +16,3 @@ public class Program
     }
 }
 
-Console.WriteLine("Hallo2");
