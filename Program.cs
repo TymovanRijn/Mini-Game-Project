@@ -14,5 +14,6 @@ public class Program
     {
         return number * number;
     }
-    hallo
 }
+
+Console.WriteLine("Hallo");
