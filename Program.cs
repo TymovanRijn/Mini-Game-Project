@@ -9,11 +9,10 @@ public class Program
     public static void Main()
     {
         Console.WriteLine(Pow2(5));
+        Console.WriteLine("hallo");
     }
     public static int Pow2(int number)
     {
         return number * number;
     }
 }
-
-Console.WriteLine("Hallo");
