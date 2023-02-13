@@ -9,7 +9,7 @@ public class Program
     public static void Main()
     {
         Console.WriteLine(Pow2(5));
-        Console.WriteLine("hallo");
+        Console.WriteLine("123456798");
     }
     public static int Pow2(int number)
     {
