@@ -1,6 +1,7 @@
 public class Quest
 {
     public bool Completed_Quest = false;
+    public bool Active_Quest = false;
     public int Found_Item = 0;
     public int Total_Item;
     public string ItemName;
@@ -20,7 +21,8 @@ public class Quest
     {
         if (Found_Item >= Total_Item)
         {
-            this.Completed_Quest = false;
+            this.Completed_Quest = true;
+            this.Active_Quest = false;
             return "You have completed the quest";
         }
         return $"You still need to find {Gathered}/{Total} items";
@@ -40,5 +42,12 @@ public class Quest
         }
     }
 
-    
+    public string Info()
+    {
+        if (this.Active_Quest is false)
+        {
+            return $"You have Found {Gathered}/{Total} items";
+        }
+    }
+
 }
