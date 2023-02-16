@@ -1,13 +1,13 @@
 public class Quest
 {
-    public bool Completed_Quest = false;
-    public bool Active_Quest = false;
-    public int Found_Item = 0;
-    public int Total_Item;
-    public string ItemName;
-    public int Quest_ID;
-    public string NPC_Name;
-    public int Item_Reward_ID;
+    public bool Completed_Quest = false; //true als de quest gedaan is.
+    public bool Active_Quest = false;//true als de quest bezig is.
+    public int Found_Item = 0;//totaal gevonden items.
+    public int Total_Item;//totaal benodigde items.
+    public string ItemName;//naam van de items.
+    public int Quest_ID;//ID van de quest om makelijker te loopen indien nodig.
+    public string NPC_Name;//NPC naam voor makelijker gespreken te maken.
+    public int Item_Reward_ID;//Reward id zodat we de items in de inventory kunnen toevoegen.
     public Quest(int quest_id, int total_item, string itemname, string npc_name, int item_reward_id)
     {
         this.Total_Item = total_item;
@@ -42,7 +42,7 @@ public class Quest
         }
     }
 
-    public string Info()
+    public string Info()//als we een manier maken zodat ze hun progressie kunnen zien.
     {
         if (this.Active_Quest is false)
         {
