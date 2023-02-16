@@ -1,0 +1,30 @@
+/Users/tymo/Library/CloudStorage/OneDrive-Personal/Hogeschool_Rotterdam_Jaar_1/OP3/Mini-Game-Project/Game Files/obj/Debug/net7.0/Game Files.csproj.AssemblyReference.cache
+/Users/tymo/Library/CloudStorage/OneDrive-Personal/Hogeschool_Rotterdam_Jaar_1/OP3/Mini-Game-Project/Game Files/obj/Debug/net7.0/Game Files.GeneratedMSBuildEditorConfig.editorconfig
+/Users/tymo/Library/CloudStorage/OneDrive-Personal/Hogeschool_Rotterdam_Jaar_1/OP3/Mini-Game-Project/Game Files/obj/Debug/net7.0/Game Files.AssemblyInfoInputs.cache
+/Users/tymo/Library/CloudStorage/OneDrive-Personal/Hogeschool_Rotterdam_Jaar_1/OP3/Mini-Game-Project/Game Files/obj/Debug/net7.0/Game Files.AssemblyInfo.cs
+/Users/tymo/Library/CloudStorage/OneDrive-Personal/Hogeschool_Rotterdam_Jaar_1/OP3/Mini-Game-Project/Game Files/obj/Debug/net7.0/Game Files.csproj.CoreCompileInputs.cache
+/Users/tymo/Library/CloudStorage/OneDrive-Personal/Hogeschool_Rotterdam_Jaar_1/OP3/Mini-Game-Project/Game Files/bin/Debug/net7.0/Game Files
+/Users/tymo/Library/CloudStorage/OneDrive-Personal/Hogeschool_Rotterdam_Jaar_1/OP3/Mini-Game-Project/Game Files/bin/Debug/net7.0/Game Files.deps.json
+/Users/tymo/Library/CloudStorage/OneDrive-Personal/Hogeschool_Rotterdam_Jaar_1/OP3/Mini-Game-Project/Game Files/bin/Debug/net7.0/Game Files.runtimeconfig.json
+/Users/tymo/Library/CloudStorage/OneDrive-Personal/Hogeschool_Rotterdam_Jaar_1/OP3/Mini-Game-Project/Game Files/bin/Debug/net7.0/Game Files.dll
+/Users/tymo/Library/CloudStorage/OneDrive-Personal/Hogeschool_Rotterdam_Jaar_1/OP3/Mini-Game-Project/Game Files/bin/Debug/net7.0/Game Files.pdb
+/Users/tymo/Library/CloudStorage/OneDrive-Personal/Hogeschool_Rotterdam_Jaar_1/OP3/Mini-Game-Project/Game Files/obj/Debug/net7.0/Game Files.dll
+/Users/tymo/Library/CloudStorage/OneDrive-Personal/Hogeschool_Rotterdam_Jaar_1/OP3/Mini-Game-Project/Game Files/obj/Debug/net7.0/refint/Game Files.dll
+/Users/tymo/Library/CloudStorage/OneDrive-Personal/Hogeschool_Rotterdam_Jaar_1/OP3/Mini-Game-Project/Game Files/obj/Debug/net7.0/Game Files.pdb
+/Users/tymo/Library/CloudStorage/OneDrive-Personal/Hogeschool_Rotterdam_Jaar_1/OP3/Mini-Game-Project/Game Files/obj/Debug/net7.0/Game Files.genruntimeconfig.cache
+/Users/tymo/Library/CloudStorage/OneDrive-Personal/Hogeschool_Rotterdam_Jaar_1/OP3/Mini-Game-Project/Game Files/obj/Debug/net7.0/ref/Game Files.dll
+/Users/tymo/Library/CloudStorage/OneDrive-Personal/Hogeschool_Rotterdam_Jaar_1/OP3/Mini-Game-Project/GameFiles/bin/Debug/net7.0/Game Files
+/Users/tymo/Library/CloudStorage/OneDrive-Personal/Hogeschool_Rotterdam_Jaar_1/OP3/Mini-Game-Project/GameFiles/bin/Debug/net7.0/Game Files.deps.json
+/Users/tymo/Library/CloudStorage/OneDrive-Personal/Hogeschool_Rotterdam_Jaar_1/OP3/Mini-Game-Project/GameFiles/bin/Debug/net7.0/Game Files.runtimeconfig.json
+/Users/tymo/Library/CloudStorage/OneDrive-Personal/Hogeschool_Rotterdam_Jaar_1/OP3/Mini-Game-Project/GameFiles/bin/Debug/net7.0/Game Files.dll
+/Users/tymo/Library/CloudStorage/OneDrive-Personal/Hogeschool_Rotterdam_Jaar_1/OP3/Mini-Game-Project/GameFiles/bin/Debug/net7.0/Game Files.pdb
+/Users/tymo/Library/CloudStorage/OneDrive-Personal/Hogeschool_Rotterdam_Jaar_1/OP3/Mini-Game-Project/GameFiles/obj/Debug/net7.0/Game Files.csproj.AssemblyReference.cache
+/Users/tymo/Library/CloudStorage/OneDrive-Personal/Hogeschool_Rotterdam_Jaar_1/OP3/Mini-Game-Project/GameFiles/obj/Debug/net7.0/Game Files.GeneratedMSBuildEditorConfig.editorconfig
+/Users/tymo/Library/CloudStorage/OneDrive-Personal/Hogeschool_Rotterdam_Jaar_1/OP3/Mini-Game-Project/GameFiles/obj/Debug/net7.0/Game Files.AssemblyInfoInputs.cache
+/Users/tymo/Library/CloudStorage/OneDrive-Personal/Hogeschool_Rotterdam_Jaar_1/OP3/Mini-Game-Project/GameFiles/obj/Debug/net7.0/Game Files.AssemblyInfo.cs
+/Users/tymo/Library/CloudStorage/OneDrive-Personal/Hogeschool_Rotterdam_Jaar_1/OP3/Mini-Game-Project/GameFiles/obj/Debug/net7.0/Game Files.csproj.CoreCompileInputs.cache
+/Users/tymo/Library/CloudStorage/OneDrive-Personal/Hogeschool_Rotterdam_Jaar_1/OP3/Mini-Game-Project/GameFiles/obj/Debug/net7.0/Game Files.dll
+/Users/tymo/Library/CloudStorage/OneDrive-Personal/Hogeschool_Rotterdam_Jaar_1/OP3/Mini-Game-Project/GameFiles/obj/Debug/net7.0/refint/Game Files.dll
+/Users/tymo/Library/CloudStorage/OneDrive-Personal/Hogeschool_Rotterdam_Jaar_1/OP3/Mini-Game-Project/GameFiles/obj/Debug/net7.0/Game Files.pdb
+/Users/tymo/Library/CloudStorage/OneDrive-Personal/Hogeschool_Rotterdam_Jaar_1/OP3/Mini-Game-Project/GameFiles/obj/Debug/net7.0/Game Files.genruntimeconfig.cache
+/Users/tymo/Library/CloudStorage/OneDrive-Personal/Hogeschool_Rotterdam_Jaar_1/OP3/Mini-Game-Project/GameFiles/obj/Debug/net7.0/ref/Game Files.dll
