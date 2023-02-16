@@ -88,32 +88,26 @@ public static class World
         Quest clearAlchemistGarden =
             new Quest(
                 QUEST_ID_CLEAR_ALCHEMIST_GARDEN,
-                "Clear the alchemist's garden",
-                "Kill rats in the alchemist's garden ", 20, 10,
-                null,
+                3,
+                "Rat tails",
+                "Alchemist",
                 WeaponByID(WEAPON_ID_CLUB));
-
-        clearAlchemistGarden.QuestCompletionItems.AddCountedItem(new CountedItem(ItemByID(ITEM_ID_RAT_TAIL), 3));
 
         Quest clearFarmersField =
             new Quest(
                 QUEST_ID_CLEAR_FARMERS_FIELD,
-                "Clear the farmer's field",
-                "Kill snakes in the farmer's field", 20, 20,
+                3,
+                "Snake fangs",
+                "Farmer",
                 ItemByID(ITEM_ID_ADVENTURER_PASS),
                 null);
-
-        clearFarmersField.QuestCompletionItems.AddCountedItem(new CountedItem(ItemByID(ITEM_ID_SNAKE_FANG), 3));
 
         Quest clearSpidersForest =
             new Quest(
                 QUEST_ID_COLLECT_SPIDER_SILK,
-                "Collect spider silk",
-                "Kill spiders in the spider forest", 20, 30,
-                ItemByID(ITEM_ID_WINNERS_MEDAL),
-                null);
-
-        clearSpidersForest.QuestCompletionItems.AddCountedItem(new CountedItem(ItemByID(ITEM_ID_SPIDER_SILK), 3));
+                3,
+                "Spider silk",
+                ItemByID(ITEM_ID_WINNERS_MEDAL));
 
         Quests.Add(clearAlchemistGarden);
         Quests.Add(clearFarmersField);

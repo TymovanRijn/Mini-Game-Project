@@ -1,29 +1,43 @@
 public class Quest
 {
-    public int Gathered = 0;
-    public int Total;
+    public bool Completed_Quest = false;
+    public int Found_Item = 0;
+    public int Total_Item;
     public string ItemName;
     public int Quest_ID;
-    public Quest(int quest_id, int total, string itemname)
+    public string NPC_Name;
+    public int Item_Reward_ID;
+    public Quest(int quest_id, int total_item, string itemname, string npc_name, int item_reward_id)
     {
-        this.Total = total;
+        this.Total_Item = total_item;
         this.ItemName = itemname;
         this.Quest_ID = quest_id;
+        this.NPC_Name = npc_name;
+        this.Item_Reward_ID;
     }
 
-    public string Completed()
+    public string Completed()//Gebruik bij de npc om te kijken of hij het kan inleveren
     {
-        if (Gathered >= Found)
+        if (Found_Item >= Total_Item)
         {
+            this.Completed_Quest = false;
             return "You have completed the quest";
         }
-        return $"you still need to find {Gathered}/{Total} items";
+        return $"You still need to find {Gathered}/{Total} items";
 
     }
 
-    public int Found()
+    public string AddItem()//om item toe te voegen aan de benodigde items
     {
-        Gathered++;
+        Found_Item++;
+        if (Found_Item >= Total_Item)
+        {
+            return $"You have completed the quest for {NPC.Name}";
+        }
+        else
+        {
+            return $"You have Found {Gathered}/{Total} items";
+        }
     }
 
     
