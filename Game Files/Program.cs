@@ -1,4 +1,4 @@
-// make an approachable main class
+﻿// make an approachable main class
 public class Program
 {
     public Quest Farmer = new Quest(1, 5, "Wheat", "Farmer", 1);
