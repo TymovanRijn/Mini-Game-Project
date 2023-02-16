@@ -20,6 +20,3 @@ Schrijf een Mini RPG Game
 ###### Tymo:
 
 ###### Luis:
-### TEST DIT BEN IK !1:333 :3 *-* (^-^)/
-
-### DEze kan toch het
