@@ -49,5 +49,4 @@ public class Quest
             return $"You have Found {Gathered}/{Total} items";
         }
     }
-
 }
