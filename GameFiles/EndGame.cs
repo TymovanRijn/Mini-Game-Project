@@ -1,6 +1,6 @@
 using System;
 using System.Collections.Generic;
-//Door Tymo
+//Door Tymo de Jong
 public class EndGame
 {
 
