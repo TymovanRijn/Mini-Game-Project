@@ -14,7 +14,7 @@ public class Quest
         this.ItemName = itemname;
         this.Quest_ID = quest_id;
         this.NPC_Name = npc_name;
-        this.Item_Reward_ID;
+        this.Item_Reward_ID = item_reward_id;
     }
 
     public string Completed()//Gebruik bij de npc om te kijken of hij het kan inleveren
@@ -25,7 +25,7 @@ public class Quest
             this.Active_Quest = false;
             return "You have completed the quest";
         }
-        return $"You still need to find {Gathered}/{Total} items";
+        return $"You still need to find items! {Found_Item}/{this.Total_Item} items are collected...";
 
     }
 
@@ -34,11 +34,12 @@ public class Quest
         Found_Item++;
         if (Found_Item >= Total_Item)
         {
-            return $"You have completed the quest for {NPC.Name}";
+            Console.WriteLine("You have Found 5/5 items");
+            return Completed();
         }
         else
         {
-            return $"You have Found {Gathered}/{Total} items";
+            return $"You have Found {Found_Item}/{this.Total_Item} items";
         }
     }
 
@@ -46,7 +47,11 @@ public class Quest
     {
         if (this.Active_Quest is false)
         {
-            return $"You have Found {Gathered}/{Total} items";
+            return $"You have Found {Found_Item}/{this.Total_Item} items";
+        }
+        else
+        {
+            return $"You have Found {Found_Item}/{this.Total_Item} items";
         }
     }
 }
