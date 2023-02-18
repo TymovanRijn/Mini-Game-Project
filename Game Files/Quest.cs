@@ -31,7 +31,7 @@ public class Quest
         Found_Item++;
         if (Found_Item >= Total_Item)
         {
-            Console.WriteLine("You have Found 5/5 items");
+            Console.WriteLine($"You have Found {Found_Item}/{this.Total_Item} items");
             return Completed();
         }
         else
