@@ -22,13 +22,13 @@ public class Quest
     //reset de health bij een completed quest weer naar 100
     public void gain_health()
     {
-        if (Completed_Quest = true)
+        if (Completed_Quest is true)
         {
             health = 100;
         }
     }
 
-    public string Completed()//Gebruik bij de npc om te kijken of hij het kan inleveren
+    public void Completed()//Gebruik bij de npc om te kijken of hij het kan inleveren
 
     {
         if (Found_Item >= Total_Item)
