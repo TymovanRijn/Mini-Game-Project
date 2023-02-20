@@ -16,7 +16,7 @@ public static class World
     public const int ITEM_ID_SNAKESKIN = 4;
     public const int ITEM_ID_SPIDER_FANG = 5;
     public const int ITEM_ID_SPIDER_SILK = 6;
-    public const int ITEM_ID_ADVENTURER_PASS = 7;
+    public static bool ADVENTURER_PASS = false;
     public const int ITEM_ID_WINNERS_MEDAL = 8;
 
     public const int MONSTER_ID_RAT = 1;
@@ -193,6 +193,7 @@ public static class World
                     {
                         Console.WriteLine("Thankyou adventure for helping me here an adventure's pass as a thankyou.");
                         i.Completed();
+                        ADVENTURER_PASS = true;
                     }
                     if  ((Awnser == "y") && (i.Found_Item >= i.Total_Item))
                     {
