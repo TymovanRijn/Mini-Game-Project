@@ -1,30 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "/Users/tymo/Library/CloudStorage/OneDrive-Personal/Hogeschool_Rotterdam_Jaar_1/OP3/Mini-Game-Project-1/Game Files/Game Files.csproj": {}
+    "C:\\Users\\ldekk\\.vscode\\Project Mini\\Mini-Game-Project\\Game Files\\Game Files.csproj": {}
   },
   "projects": {
-    "/Users/tymo/Library/CloudStorage/OneDrive-Personal/Hogeschool_Rotterdam_Jaar_1/OP3/Mini-Game-Project-1/Game Files/Game Files.csproj": {
+    "C:\\Users\\ldekk\\.vscode\\Project Mini\\Mini-Game-Project\\Game Files\\Game Files.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/tymo/Library/CloudStorage/OneDrive-Personal/Hogeschool_Rotterdam_Jaar_1/OP3/Mini-Game-Project-1/Game Files/Game Files.csproj",
+        "projectUniqueName": "C:\\Users\\ldekk\\.vscode\\Project Mini\\Mini-Game-Project\\Game Files\\Game Files.csproj",
         "projectName": "Game Files",
-        "projectPath": "/Users/tymo/Library/CloudStorage/OneDrive-Personal/Hogeschool_Rotterdam_Jaar_1/OP3/Mini-Game-Project-1/Game Files/Game Files.csproj",
-        "packagesPath": "/Users/tymo/.nuget/packages/",
-        "outputPath": "/Users/tymo/Library/CloudStorage/OneDrive-Personal/Hogeschool_Rotterdam_Jaar_1/OP3/Mini-Game-Project-1/Game Files/obj/",
+        "projectPath": "C:\\Users\\ldekk\\.vscode\\Project Mini\\Mini-Game-Project\\Game Files\\Game Files.csproj",
+        "packagesPath": "C:\\Users\\ldekk\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ldekk\\.vscode\\Project Mini\\Mini-Game-Project\\Game Files\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/tymo/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\ldekk\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net7.0"
+          "net6.0"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net7.0": {
-            "targetAlias": "net7.0",
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {}
           }
         },
@@ -35,8 +35,8 @@
         }
       },
       "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "imports": [
             "net461",
             "net462",
@@ -53,7 +53,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.101/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.405\\RuntimeIdentifierGraph.json"
         }
       }
     }

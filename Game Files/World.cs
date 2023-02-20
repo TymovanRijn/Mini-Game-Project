@@ -1,10 +1,10 @@
 public static class World
 {
-    public static readonly List<Item> Items = new List<Item>();
-    public static readonly List<Weapon> Weapons = new List<Weapon>();
-    public static readonly List<Monster> Monsters = new List<Monster>();
+    //public static readonly List<Item> Items = new List<Item>();
+    //public static readonly List<Weapon> Weapons = new List<Weapon>();
+    //public static readonly List<Monster> Monsters = new List<Monster>();
     public static readonly List<Quest> Quests = new List<Quest>();
-    public static readonly List<Location> Locations = new List<Location>();
+    //public static readonly List<Location> Locations = new List<Location>();
     public static readonly Random RandomGenerator = new Random();
 
     public const int WEAPON_ID_RUSTY_SWORD = 1;
@@ -39,49 +39,49 @@ public static class World
 
     static World()
     {
-        PopulateItems();
-        PopulateWeapons();
-        PopulateMonsters();
+        //PopulateItems();
+        //PopulateWeapons();
+        //PopulateMonsters();
         PopulateQuests();
-        PopulateLocations();
+        //PopulateLocations();
     }
 
-//     public static void PopulateItems()
-//     {
-//         Items.Add(new Item(ITEM_ID_RAT_TAIL, "Rat tail", "Rat tails"));
-//         Items.Add(new Item(ITEM_ID_PIECE_OF_FUR, "Piece of fur", "Pieces of fur"));
-//         Items.Add(new Item(ITEM_ID_SNAKE_FANG, "Snake fang", "Snake fangs"));
-//         Items.Add(new Item(ITEM_ID_SNAKESKIN, "Snakeskin", "Snakeskins"));
-//         Items.Add(new Item(ITEM_ID_SPIDER_FANG, "Spider fang", "Spider fangs"));
-//         Items.Add(new Item(ITEM_ID_SPIDER_SILK, "Spider silk", "Spider silks"));
-//         Items.Add(new Item(ITEM_ID_ADVENTURER_PASS, "Adventurer pass", "Adventurer passes"));
-//         Items.Add(new Item(ITEM_ID_WINNERS_MEDAL, "Winner's medal", "winner's medals"));
-//     }
+    // public static void PopulateItems()
+    // {
+    //     Items.Add(new Item(ITEM_ID_RAT_TAIL, "Rat tail", "Rat tails"));
+    //     Items.Add(new Item(ITEM_ID_PIECE_OF_FUR, "Piece of fur", "Pieces of fur"));
+    //     Items.Add(new Item(ITEM_ID_SNAKE_FANG, "Snake fang", "Snake fangs"));
+    //     Items.Add(new Item(ITEM_ID_SNAKESKIN, "Snakeskin", "Snakeskins"));
+    //     Items.Add(new Item(ITEM_ID_SPIDER_FANG, "Spider fang", "Spider fangs"));
+    //     Items.Add(new Item(ITEM_ID_SPIDER_SILK, "Spider silk", "Spider silks"));
+    //     Items.Add(new Item(ITEM_ID_ADVENTURER_PASS, "Adventurer pass", "Adventurer passes"));
+    //     Items.Add(new Item(ITEM_ID_WINNERS_MEDAL, "Winner's medal", "winner's medals"));
+    // }
 
-    public static void PopulateWeapons()
-    {
-        Weapons.Add(new Weapon(WEAPON_ID_RUSTY_SWORD, "Rusty sword", "Rusty swords", 0, 5));
-        Weapons.Add(new Weapon(WEAPON_ID_CLUB, "Club", "Clubs", 3, 10));
-    }
+    // public static void PopulateWeapons()
+    // {
+    //     Weapons.Add(new Weapon(WEAPON_ID_RUSTY_SWORD, "Rusty sword", "Rusty swords", 0, 5));
+    //     Weapons.Add(new Weapon(WEAPON_ID_CLUB, "Club", "Clubs", 3, 10));
+    // }
 
-//     public static void PopulateMonsters()
-//     {
-//         Monster rat = new Monster(MONSTER_ID_RAT, "rat", "rats", 5, 3, 10, 3, 3);
-//         rat.Loot.AddItem(ItemByID(ITEM_ID_RAT_TAIL));
-//         rat.Loot.AddItem(ItemByID(ITEM_ID_PIECE_OF_FUR));
+    // public static void PopulateMonsters()
+    // {
+    //     Monster rat = new Monster(MONSTER_ID_RAT, "rat", "rats", 5, 3, 10, 3, 3);
+    //     rat.Loot.AddItem(ItemByID(ITEM_ID_RAT_TAIL));
+    //     rat.Loot.AddItem(ItemByID(ITEM_ID_PIECE_OF_FUR));
 
-//         Monster snake = new Monster(MONSTER_ID_SNAKE, "snake", "snakes", 5, 4, 20, 7, 7);
-//         snake.Loot.AddItem(ItemByID(ITEM_ID_SNAKE_FANG));
-//         snake.Loot.AddItem(ItemByID(ITEM_ID_SNAKESKIN));
+    //     Monster snake = new Monster(MONSTER_ID_SNAKE, "snake", "snakes", 5, 4, 20, 7, 7);
+    //     snake.Loot.AddItem(ItemByID(ITEM_ID_SNAKE_FANG));
+    //     snake.Loot.AddItem(ItemByID(ITEM_ID_SNAKESKIN));
 
-//         Monster giantSpider = new Monster(MONSTER_ID_GIANT_SPIDER, "giant spider", "giant spiders", 5, 5, 30, 10, 10);
-//         giantSpider.Loot.AddItem(ItemByID(ITEM_ID_SPIDER_FANG));
-//         giantSpider.Loot.AddItem(ItemByID(ITEM_ID_SPIDER_SILK));
+    //     Monster giantSpider = new Monster(MONSTER_ID_GIANT_SPIDER, "giant spider", "giant spiders", 5, 5, 30, 10, 10);
+    //     giantSpider.Loot.AddItem(ItemByID(ITEM_ID_SPIDER_FANG));
+    //     giantSpider.Loot.AddItem(ItemByID(ITEM_ID_SPIDER_SILK));
 
-//         Monsters.Add(rat);
-//         Monsters.Add(snake);
-//         Monsters.Add(giantSpider);
-//     }
+    //     Monsters.Add(rat);
+    //     Monsters.Add(snake);
+    //     Monsters.Add(giantSpider);
+    // }
 
     public static void PopulateQuests()
     {
@@ -91,7 +91,7 @@ public static class World
                3,
                "Rat tails",
                "Alchemist",
-              WeaponByID(WEAPON_ID_CLUB));
+                1);
 
         Quest clearFarmersField =
            new Quest(
@@ -99,7 +99,7 @@ public static class World
                3,
                "Snake Fangs",
                "Farmer",
-              WeaponByID(WEAPON_ID_CLUB));
+                2);
 
         Quest clearSpidersForest =
             new Quest(
@@ -107,16 +107,21 @@ public static class World
                 3,
                 "Spider silk",
                 "Guard",
-                ItemByID(ITEM_ID_WINNERS_MEDAL));
+                3);
 
         Quests.Add(clearAlchemistGarden);
         Quests.Add(clearFarmersField);
         Quests.Add(clearSpidersForest);
     }
 
-    public void NPC_Alchemist()
-    {
-        if ((clearAlchemistGarden.Completed is false) && (clearAlchemistGarden.Active_Quest is false))
+
+   public static void NPC_Alchemist()
+   {
+        foreach (Quest i in Quests)
+        {
+            if (i.Quest_ID == 2)
+            {
+        if ((i.Completed_Quest is false) && (i.Active_Quest is false))
         {
             Console.WriteLine("Adventure my garden is infested with rats can you help me? (y/n)");
             string Awnser = Console.ReadLine();
@@ -125,27 +130,27 @@ public static class World
             {
                 Console.WriteLine("Can you get me 3 rat tails as proof that my garden is safe again.");
             }
-            else (Awnser == "n");
+            else if (Awnser == "n")
             {
                 Console.WriteLine("Come back when you have changed your mind!.");
             }
         }
-        else if ((clearAlchemistGarden.Completed is false) && (clearAlchemistGarden.Active_Quest is true))
+        else if ((i.Completed_Quest is false) && (i.Active_Quest is true))
         {
-            Console.WriteLine($"Adventure have you collected {clearAlchemistGarden.Total_Item} rat tails? (y/n)");
+            Console.WriteLine($"Adventure have you collected {i.Total_Item} rat tails? (y/n)");
             string Awnser = Console.ReadLine();
             Awnser.ToLower();
-            if  ((Awnser == "y") && (clearAlchemistGarden.Found >= clearAlchemistGarden.Total_Item))
+            if  ((Awnser == "y") && (i.Found_Item >= i.Total_Item))
             {
                 Console.WriteLine("Thankyou adventure for helping me here an club pass as a thankyou.");
-                clearAlchemistGarden.Completed();
+                i.Completed();
             }
-            if  ((Awnser == "y") && (clearAlchemistGarden.Found < clearAlchemistGarden.Total_Item))
+            if  ((Awnser == "y") && (i.Found_Item < i.Total_Item))
             {
-                Console.WriteLine($"Liar you have {clearAlchemistGarden.Found_Item}/{clearAlchemistGarden.Total_Item} collected. \nNow you need to get 1 more!");
-                clearAlchemistGarden.Total_Item += 1;
+                Console.WriteLine($"Liar you have {i.Found_Item}/{i.Total_Item} collected. \nNow you need to get 1 more!");
+                i.Total_Item += 1;
             }
-            else (Awnser == "n");
+            else if (Awnser == "n")
             {
                 Console.WriteLine("Come back when you have more.");
             }
@@ -153,98 +158,108 @@ public static class World
         else
         {
             Console.WriteLine("Adventure my garden is safe now. Have a nice day!");
+        }   
+            }
         }
+
     }
 
-    public void NPC_Farmer()
+    public static void NPC_Farmer()
     {
-        if ((clearFarmersField.Completed is false) && (clearFarmersField.Active_Quest is false))
+        foreach (Quest i in Quests)
         {
-            Console.WriteLine("Adventure i hava a problem with snakes in my field can you help me? (y/n)");
-            string Awnser = Console.ReadLine();
-            Awnser.ToLower();
-            if  (Awnser == "y")
+            if (i.Quest_ID == 1)
             {
-                Console.WriteLine("Can you get me 3 snake fangs as proof that my field is safe again.");
+                if ((i.Completed_Quest is false) && (i.Active_Quest is false))
+                {
+                    Console.WriteLine("Adventure i hava a problem with snakes in my field can you help me? (y/n)");
+                    string Awnser = Console.ReadLine();
+                    Awnser.ToLower();
+                    if  (Awnser == "y")
+                    {
+                        Console.WriteLine("Can you get me 3 snake fangs as proof that my field is safe again.");
+                    }
+                    else if (Awnser == "n")
+                    {
+                        Console.WriteLine("Come back when you have changed your mind!.");
+                    }
+                }
+                else if ((i.Completed_Quest is false) && (i.Active_Quest is true))
+                {
+                    Console.WriteLine($"Adventure have you collected {i.Total_Item} snake fangs? (y/n)");
+                    string Awnser = Console.ReadLine();
+                    Awnser.ToLower();
+                    if  ((Awnser == "y") && (i.Found_Item >= i.Total_Item))
+                    {
+                        Console.WriteLine("Thankyou adventure for helping me here an adventure's pass as a thankyou.");
+                        i.Completed();
+                    }
+                    if  ((Awnser == "y") && (i.Found_Item >= i.Total_Item))
+                    {
+                        Console.WriteLine($"Liar you have {i.Found_Item}/{i.Total_Item} collected. \nNow you need to get 1 more!");
+                        i.Total_Item += 1;
+                    }
+                    else if (Awnser == "n")
+                    {
+                        Console.WriteLine("Come back when you have more.");
+                    }
+                }
+                else
+                {
+                    Console.WriteLine("Adventure my field is safe now. Have a nice day!");
+                }
             }
-            else (Awnser == "n");
-            {
-                Console.WriteLine("Come back when you have changed your mind!.");
-            }
-        }
-        else if ((clearFarmersField.Completed is false) && (clearFarmersField.Active_Quest is true))
-        {
-            Console.WriteLine($"Adventure have you collected {clearFarmersField.Total_Item} snake fangs? (y/n)");
-            string Awnser = Console.ReadLine();
-            Awnser.ToLower();
-            if  ((Awnser == "y") && (clearFarmersField.Found >= clearFarmersField.Total_Item))
-            {
-                Console.WriteLine("Thankyou adventure for helping me here an adventure's pass as a thankyou.");
-                clearFarmersField.Completed();
-            }
-            if  ((Awnser == "y") && (clearFarmersField.Found >= clearFarmersField.Total_Item))
-            {
-                Console.WriteLine($"Liar you have {clearFarmersField.Found_Item}/{clearFarmersField.Total_Item} collected. \nNow you need to get 1 more!");
-                clearFarmersField.Total_Item += 1;
-            }
-            else (Awnser == "n");
-            {
-                Console.WriteLine("Come back when you have more.");
-            }
-        }
-        else
-        {
-            Console.WriteLine("Adventure my field is safe now. Have a nice day!");
         }
     }
 
 
-    public void NPC_Guard()
+    public static void NPC_Guard()
     {
-        if ((clearSpidersForest.Completed is false) && (clearSpidersForest.Active_Quest is false))
+        foreach (Quest i in Quests)
         {
-            Console.WriteLine("Adventure there is a spider problem in the forest can you fix it? (y/n)");
-            string Awnser = Console.ReadLine();
-            Awnser.ToLower();
-            if  (Awnser == "y")
+            if (i.Quest_ID == 3)
             {
-                Console.WriteLine("Collect 3 spider silk.");
+                if ((i.Completed_Quest is false) && (i.Active_Quest is false))
+                {
+                    Console.WriteLine("Adventure there is a spider problem in the forest can you fix it? (y/n)");
+                    string Awnser = Console.ReadLine();
+                    Awnser.ToLower();
+                    if  (Awnser == "y")
+                    {
+                        Console.WriteLine("Collect 3 spider silk.");
+                    }
+                    else if (Awnser == "n")
+                    {
+                        Console.WriteLine("Come back when you have changed your mind!.");
+                    }
+                }
+                else if ((i.Completed_Quest is false) && (i.Active_Quest is true))
+                {
+                    Console.WriteLine($"Adventure have you collected {i.Total_Item} spider silk? (y/n)");
+                    string Awnser = Console.ReadLine();
+                    Awnser = Awnser.ToLower();
+                    if  ((Awnser == "y") && (i.Found_Item >= i.Total_Item))
+                    {
+                        Console.WriteLine("Because you cleared the forest adventure i shall award you the winner's medal.");
+                        i.Completed();
+                    }
+                    else if  ((Awnser == "y") && (i.Found_Item >= i.Total_Item))
+                    {
+                        Console.WriteLine($"Liar you have {i.Found_Item}/{i.Total_Item} collected. \nNow you need to get 1 more!");
+                        i.Total_Item += 1;
+                    }
+                    else if (Awnser == "n")
+                    {
+                        Console.WriteLine("Come back when you have more.");
+                    }
+                }
+                else
+                {
+                    Console.WriteLine("Adventure the forest is safe again thankyou!");
+                }
             }
-            else (Awnser == "n");
-            {
-                Console.WriteLine("Come back when you have changed your mind!.");
-            }
-        }
-        else if ((clearSpidersForest.Completed is false) && (clearSpidersForest.Active_Quest is true))
-        {
-            Console.WriteLine($"Adventure have you collected {clearSpidersForest.Total_Item} spider silk? (y/n)");
-            string Awnser = Console.ReadLine();
-            Awnser.ToLower();
-            if  ((Awnser == "y") && (clearSpidersForest.Found >= clearSpidersForest.Total_Item))
-            {
-                Console.WriteLine("Because you cleared the forest adventure i shall award you the winner's medal.");
-                clearSpidersForest.Completed();
-            }
-            if  ((Awnser == "y") && (clearSpidersForest.Found >= clearSpidersForest.Total_Item))
-            {
-                Console.WriteLine($"Liar you have {clearSpidersForest.Found_Item}/{clearSpidersForest.Total_Item} collected. \nNow you need to get 1 more!");
-                clearSpidersForest.Total_Item += 1;
-            }
-            else (Awnser == "n");
-            {
-                Console.WriteLine("Come back when you have more.");
-            }
-        }
-        else
-        {
-            Console.WriteLine("Adventure the forest if safe again thankyou!");
         }
     }
-
-
-
-    
-
 //     public static void PopulateLocations()
 //     {
 //         // Create each location
