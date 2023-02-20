@@ -9,6 +9,7 @@ public class Program
 
     public static void Main()
     {
+        World.PopulateQuests();
         while (true)
         {
             // start de game
@@ -25,5 +26,7 @@ public class Program
                 break;
             }
         }
-    }
+   }
+
+
 }

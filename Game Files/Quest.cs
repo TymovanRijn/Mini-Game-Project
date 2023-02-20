@@ -29,15 +29,13 @@ public class Quest
     }
 
     public string Completed()//Gebruik bij de npc om te kijken of hij het kan inleveren
+
     {
         if (Found_Item >= Total_Item)
         {
             this.Completed_Quest = true;
             this.Active_Quest = false;
-            return "You have completed the quest";
         }
-        return $"You still need to find items! {Found_Item}/{this.Total_Item} items are collected...";
-
     }
 
     public string AddItem()//om item toe te voegen aan de benodigde items
@@ -45,8 +43,7 @@ public class Quest
         Found_Item++;
         if (Found_Item >= Total_Item)
         {
-            Console.WriteLine("You have Found 5/5 items");
-            return Completed();
+            return ($"You have Found {Found_Item}/{this.Total_Item} items");
         }
         else
         {
