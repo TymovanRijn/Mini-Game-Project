@@ -58,11 +58,11 @@ public static class World
 //         Items.Add(new Item(ITEM_ID_WINNERS_MEDAL, "Winner's medal", "winner's medals"));
 //     }
 
-//     public static void PopulateWeapons()
-//     {
-//         Weapons.Add(new Weapon(WEAPON_ID_RUSTY_SWORD, "Rusty sword", "Rusty swords", 0, 5));
-//         Weapons.Add(new Weapon(WEAPON_ID_CLUB, "Club", "Clubs", 3, 10));
-//     }
+    public static void PopulateWeapons()
+    {
+        Weapons.Add(new Weapon(WEAPON_ID_RUSTY_SWORD, "Rusty sword", "Rusty swords", 0, 5));
+        Weapons.Add(new Weapon(WEAPON_ID_CLUB, "Club", "Clubs", 3, 10));
+    }
 
 //     public static void PopulateMonsters()
 //     {
@@ -93,7 +93,7 @@ public static class World
                "Alchemist",
               WeaponByID(WEAPON_ID_CLUB));
 
-        Quest clearFarmersGarden =
+        Quest clearFarmersField =
            new Quest(
                QUEST_ID_CLEAR_FARMERS_FIELD,
                3,
