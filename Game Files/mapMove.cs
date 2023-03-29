@@ -12,7 +12,7 @@ namespace playerMovement
         {
             if (player_movement == "up")
             {
-                if (player_pos = "H")
+                if (player_pos == "H")
                 {
                     Console.WriteLine("You are at " + player_pos);
                     Console.WriteLine("You will now go to the Towns Square");
@@ -70,7 +70,7 @@ namespace playerMovement
             }
             if (player_movement == "down")
             {
-                if (player_pos = "H")
+                if (player_pos == "H")
                 {
                     Console.WriteLine("You are at " + player_pos);
                     Console.WriteLine("You can't go further down");
@@ -128,7 +128,7 @@ namespace playerMovement
             }
             if (player_movement == "left")
             {
-                if (player_pos = "H")
+                if (player_pos == "H")
                 {
                     Console.WriteLine("You are at " + player_pos);
                     Console.WriteLine("You can't go further left");
@@ -187,7 +187,7 @@ namespace playerMovement
             }
             if (player_movement == "right")
             {
-                if (player_pos = "H")
+                if (player_pos == "H")
                 {
                     Console.WriteLine("You are at " + player_pos);
                     Console.WriteLine("You can't go further right");
@@ -247,23 +247,23 @@ namespace playerMovement
         }
 
         public static void Up()
-       s
-        player_movement = "up"
+    {
+        player_movement = "up";
         position();
     }
     public static void Down()
     {
-        player_movement = "down"
+        player_movement = "down";
      position();
     }
     public static void Left()
     {
-        player_movement = "left"
+        player_movement = "left";
      position();
     }
     public static void Right()
     {
-        player_movement = "right"
+        player_movement = "right";
      position();
     }
 }
@@ -271,19 +271,19 @@ public static void Main()
 {
     if (Console.ReadKey().Key == ConsoleKey.W)
     {
-        Movement.Up()
+        Movement.Up();
         };
     if (Console.ReadKey().Key == ConsoleKey.A)
     {
-        Movement.Left()
+        Movement.Left();
         };
     if (Console.ReadKey().Key == ConsoleKey.D)
     {
-        Movement.Right()
+        Movement.Right();
           };
     if (Console.ReadKey().Key == ConsoleKey.S)
     {
-        Movement.Down()
+        Movement.Down();
           };
 
 }
