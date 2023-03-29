@@ -44,25 +44,11 @@ public class Quest
     public string AddItem()//om item toe te voegen aan de benodigde items
     {
         Found_Item++;
-        if (Found_Item >= Total_Item)
-        {
-            return ($"You have Found {Found_Item}/{this.Total_Item} items");
-        }
-        else
-        {
-            return $"You have Found {Found_Item}/{this.Total_Item} items";
-        }
+        return $"You have Found {Found_Item}/{this.Total_Item} items";
     }
 
     public string Info()//als we een manier maken zodat ze hun progressie kunnen zien.
     {
-        if (this.Active_Quest is false)
-        {
-            return $"You have Found {Found_Item}/{this.Total_Item} items";
-        }
-        else
-        {
-            return $"You have Found {Found_Item}/{this.Total_Item} items";
-        }
+        return $"You have Found {Found_Item}/{this.Total_Item} items";
     }
 }
