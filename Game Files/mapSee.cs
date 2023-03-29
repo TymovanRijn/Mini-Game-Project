@@ -1,16 +1,14 @@
-﻿namespace playerMap
+﻿public static class Map
 {
-    public class Map
+    static string player_pos = "H";
+    public static void getPos()
     {
-        static string player_pos = "H";
-        public static void getPos()
-        {
 
-        }
-        public static void Show()
-        {
+    }
+    public static void Show()
+    {
 
-            Console.WriteLine(@"""
+        Console.WriteLine(@"""
             Legend:​
             
             H: Your house (game start)​
@@ -31,7 +29,7 @@
             
             S: Spider forest
             """);
-            Console.WriteLine(@"""
+        Console.WriteLine(@"""
               P​
             
               A​
@@ -40,9 +38,10 @@
             
               H
             """);
-            Console.WriteLine(@"""
+        Console.WriteLine(@"""
              Current position is 
             """ + player_pos);
-        }
     }
+
+
 }

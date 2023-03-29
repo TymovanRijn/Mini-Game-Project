@@ -20,27 +20,24 @@ public class Program
 
         while (true)
         {
+            switch (Console.ReadKey().Key)
             {
-                if (Console.ReadKey().Key == ConsoleKey.W)
-                {
+                case ConsoleKey.W:
                     MapMove.Up();
-                };
-                if (Console.ReadKey().Key == ConsoleKey.A)
-                {
+                    break;
+                case ConsoleKey.A:
                     MapMove.Left();
-                };
-                if (Console.ReadKey().Key == ConsoleKey.D)
-                {
+                    break;
+                case ConsoleKey.D:
                     MapMove.Right();
-                };
-                if (Console.ReadKey().Key == ConsoleKey.S)
-                {
+                    break;
+                case ConsoleKey.S:
                     MapMove.Down();
-                };
-
-            }
+                    break;
+                case ConsoleKey.M:
+                    Map.Show();
+                    break;
+            };
         }
     }
-
-
 }

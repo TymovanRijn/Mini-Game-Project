@@ -6,7 +6,7 @@
     {
         switch (player_movement)
         {
-            case "Up":
+            case "up":
                 switch (player_pos)
                 {
                     case "H":
