@@ -1,6 +1,4 @@
-﻿using System;
-using playerMovement;
-namespace playerMap
+﻿namespace playerMap
 {
     public class Map
     {
@@ -45,15 +43,6 @@ namespace playerMap
             Console.WriteLine(@"""
              Current position is 
             """ + player_pos);
-        }
-
-        public static void Main()
-        {
-            if (Console.ReadKey().Key == ConsoleKey.M)
-            {
-                Map.Show();
-            };
-
         }
     }
 }

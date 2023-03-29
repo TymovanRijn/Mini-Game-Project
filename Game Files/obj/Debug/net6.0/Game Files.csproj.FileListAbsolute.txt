@@ -1,5 +1,20 @@
-C:\Users\ldekk\.vscode\Project Mini\Mini-Game-Project\Game Files\obj\Debug\net6.0\Game Files.csproj.AssemblyReference.cache
-C:\Users\ldekk\.vscode\Project Mini\Mini-Game-Project\Game Files\obj\Debug\net6.0\Game Files.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\ldekk\.vscode\Project Mini\Mini-Game-Project\Game Files\obj\Debug\net6.0\Game Files.AssemblyInfoInputs.cache
-C:\Users\ldekk\.vscode\Project Mini\Mini-Game-Project\Game Files\obj\Debug\net6.0\Game Files.AssemblyInfo.cs
-C:\Users\ldekk\.vscode\Project Mini\Mini-Game-Project\Game Files\obj\Debug\net6.0\Game Files.csproj.CoreCompileInputs.cache
+C:/Users/ldekk/.vscode/Project Mini/Mini-Game-Project/Game Files/obj/Debug/net6.0/Game Files.csproj.AssemblyReference.cache
+C:/Users/ldekk/.vscode/Project Mini/Mini-Game-Project/Game Files/obj/Debug/net6.0/Game Files.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/ldekk/.vscode/Project Mini/Mini-Game-Project/Game Files/obj/Debug/net6.0/Game Files.AssemblyInfoInputs.cache
+C:/Users/ldekk/.vscode/Project Mini/Mini-Game-Project/Game Files/obj/Debug/net6.0/Game Files.AssemblyInfo.cs
+C:/Users/ldekk/.vscode/Project Mini/Mini-Game-Project/Game Files/obj/Debug/net6.0/Game Files.csproj.CoreCompileInputs.cache
+/Users/tymo/Mini-Game-Project-1/Game Files/obj/Debug/net6.0/Game Files.csproj.AssemblyReference.cache
+/Users/tymo/Mini-Game-Project-1/Game Files/obj/Debug/net6.0/Game Files.GeneratedMSBuildEditorConfig.editorconfig
+/Users/tymo/Mini-Game-Project-1/Game Files/obj/Debug/net6.0/Game Files.AssemblyInfoInputs.cache
+/Users/tymo/Mini-Game-Project-1/Game Files/obj/Debug/net6.0/Game Files.AssemblyInfo.cs
+/Users/tymo/Mini-Game-Project-1/Game Files/obj/Debug/net6.0/Game Files.csproj.CoreCompileInputs.cache
+/Users/tymo/Mini-Game-Project-1/Game Files/bin/Debug/net6.0/Game Files
+/Users/tymo/Mini-Game-Project-1/Game Files/bin/Debug/net6.0/Game Files.deps.json
+/Users/tymo/Mini-Game-Project-1/Game Files/bin/Debug/net6.0/Game Files.runtimeconfig.json
+/Users/tymo/Mini-Game-Project-1/Game Files/bin/Debug/net6.0/Game Files.dll
+/Users/tymo/Mini-Game-Project-1/Game Files/bin/Debug/net6.0/Game Files.pdb
+/Users/tymo/Mini-Game-Project-1/Game Files/obj/Debug/net6.0/Game Files.dll
+/Users/tymo/Mini-Game-Project-1/Game Files/obj/Debug/net6.0/refint/Game Files.dll
+/Users/tymo/Mini-Game-Project-1/Game Files/obj/Debug/net6.0/Game Files.pdb
+/Users/tymo/Mini-Game-Project-1/Game Files/obj/Debug/net6.0/Game Files.genruntimeconfig.cache
+/Users/tymo/Mini-Game-Project-1/Game Files/obj/Debug/net6.0/ref/Game Files.dll
