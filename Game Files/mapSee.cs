@@ -12,7 +12,7 @@ namespace playerMap
         public static void Show()
         {
 
-            Console.WriteLine("""
+            Console.WriteLine(@"""
             Legend:​
             
             H: Your house (game start)​
@@ -33,7 +33,7 @@ namespace playerMap
             
             S: Spider forest
             """);
-            Console.WriteLine("""
+            Console.WriteLine(@"""
               P​
             
               A​
@@ -42,7 +42,7 @@ namespace playerMap
             
               H
             """);
-            Console.WriteLine("""
+            Console.WriteLine(@"""
              Current position is 
             """ + player_pos);
         }
