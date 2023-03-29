@@ -247,44 +247,44 @@ namespace playerMovement
         }
 
         public static void Up()
-    {
-        player_movement = "up";
-        position();
-    }
-    public static void Down()
-    {
-        player_movement = "down";
-     position();
-    }
-    public static void Left()
-    {
-        player_movement = "left";
-     position();
-    }
-    public static void Right()
-    {
-        player_movement = "right";
-     position();
-    }
-}
-public static void Main()
-{
-    if (Console.ReadKey().Key == ConsoleKey.W)
-    {
-        Movement.Up();
-        };
-    if (Console.ReadKey().Key == ConsoleKey.A)
-    {
-        Movement.Left();
-        };
-    if (Console.ReadKey().Key == ConsoleKey.D)
-    {
-        Movement.Right();
-          };
-    if (Console.ReadKey().Key == ConsoleKey.S)
-    {
-        Movement.Down();
-          };
+        {
+            player_movement = "up";
+            position();
+        }
+        public static void Down()
+        {
+            player_movement = "down";
+            position();
+        }
+        public static void Left()
+        {
+            player_movement = "left";
+            position();
+        }
+        public static void Right()
+        {
+            player_movement = "right";
+            position();
+        }
+        public static void Main()
+        {
+            if (Console.ReadKey().Key == ConsoleKey.W)
+            {
+                Movement.Up();
+            };
+            if (Console.ReadKey().Key == ConsoleKey.A)
+            {
+                Movement.Left();
+            };
+            if (Console.ReadKey().Key == ConsoleKey.D)
+            {
+                Movement.Right();
+            };
+            if (Console.ReadKey().Key == ConsoleKey.S)
+            {
+                Movement.Down();
+            };
 
+        }
+    }
 }
-} 
